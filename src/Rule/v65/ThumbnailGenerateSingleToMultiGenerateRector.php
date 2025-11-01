@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace FriendsOfOnlishop\Rector\Rule\v65;
 
+use Onlishop\Core\Content\Media\MediaCollection;
 use PhpParser\Node;
 use PhpParser\Node\Expr\Array_;
 use PhpParser\Node\Expr\MethodCall;
@@ -11,7 +12,6 @@ use PhpParser\Node\Expr\New_;
 use PhpParser\Node\Name;
 use PHPStan\Type\ObjectType;
 use Rector\Rector\AbstractRector;
-use Onlishop\Core\Content\Media\MediaCollection;
 use Symplify\RuleDocGenerator\ValueObject\CodeSample\CodeSample;
 use Symplify\RuleDocGenerator\ValueObject\RuleDefinition;
 
